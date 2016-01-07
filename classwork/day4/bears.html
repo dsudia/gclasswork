@@ -10,21 +10,36 @@
         background-color: rgba(200,255,200,0.5);
       }
       #inwater {
-        border: solid #883300 10px;
+        border: solid #883300 1px;
       }
       #island {
-        border: solid #883300 10px;
+        border: solid #886600 5px;
       }
       #twobears {
-        border: solid #883300 10px;
+        border: solid #889900 10px;
+      }
+      .bearbox {
+        float: left;
+        padding-left: 10px 10px 10px 10px;
+        border: solid rgb(200,255,200);
+        margin: 10px 10px 10px 10px;
       }
     </style>
   </head>
   
   <body>
     <h1>Bears - the cuddliest natural predator of humans</h1>
-    <img id="inwater" src="http://placebear.com/500/500">
-    <img id="island" src="http://placebear.com/600/600">
-    <img id="twobears" src="http://placebear.com/700/700">
+    <div class="bearbox">
+      <img id="inwater" src="http://placebear.com/500/500" height="300px" width="300px">
+      <p>A bear eats a fish.</p>
+    </div>
+    <div class="bearbox">
+      <img id="island" src="http://placebear.com/600/600" height="300px" width="300px">
+      <p>A bear is lost.</p>
+    </div>
+    <div class="bearbox">
+      <img id="twobears" src="http://placebear.com/700/700" height="300px" width="300px">
+      <p>These bears are friends.</p>
+    </div>
   </body>
 </html>
