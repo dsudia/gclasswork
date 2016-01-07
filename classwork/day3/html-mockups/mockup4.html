@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+     <style type="text/css">
+    h1 {
+      color: orange;
+      font-family: sans-serif;
+      margin-left: 10px;
+    }
+    .formname {
+      margin-left: 30px;
+      color: purple;
+      font-family: sans-serif;
+      display: inline-block;
+    }
+    .textfield {
+      margin-left: 20px;
+      width: 200px;
+      border: solid black 2px;
+      margin-bottom: 30px;
+    }
+    .check {
+      margin-left: 30px;
+      outline: solid purple 1px;
+    }
+    .checktext {
+      margin-left: 10px;
+      color: purple;
+      font-family: sans-serif;
+      display: inline-block;
+    }
+    .btn {
+      box-shadow: 3px 3px 0px black;
+      font-family: Arial;
+      color: black;
+      font-size: 15px;
+      background: orange;
+      padding: 5px 10px 5px 10px;
+      border: solid black 3px;
+      display: block;
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+    </style>
+    <title></title>
+   </head>
+   <body>
+      <h1>Your Information:</h1>
+      <form>
+        <div class="formname">Name</div>
+        <input class="textfield" type="text" name="name">
+        <br>
+        <div class="formname">Email</div>
+        <input class="textfield" type="text" name="email">
+        <br>
+        <div class="formname">Phone</div>
+        <input class="textfield" type="text" name="phone">
+        <br>
+        <input class="check" type="checkbox" name="fromco">
+        <div class="checktext">From Colorado</div>
+        <input class="check" type="checkbox" name="notfromco">
+        <div class="checktext">Not From Colorado</div>
+        <button class="btn">Submit</button>
+      </form>
+   </body>
+</html>
