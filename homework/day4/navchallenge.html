@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css">
+    nav {
+      background-color: #333333;
+      display: block;
+    } 
+    
+    nav a {
+      color: #999999;
+    }
+
+    .aboutdrop {
+      background-color: #333333;
+      color: #999999;
+      width: 125px;
+      margin-left: 20px;
+      display: none;
+      position: absolute;
+    }
+
+    .dropli {
+      color: #999999;
+      margin-left: -10px;
+    }
+
+    #about:hover {
+      background-color: #999999;
+      color: #555555;
+    }
+
+    #about:hover .aboutdrop {
+      display: block;
+      clear: both;
+    }
+
+    .jobsdrop {
+      background-color: #333333;
+      color: #999999;
+      width: 100px;
+      margin-left: 30px;
+      position: relative;
+      display: none;
+    }
+
+    #jobs:hover .jobsdrop {
+      display: block;
+      clear: both;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+  
+  <body>
+    <nav>
+      <a href="/Home/">Home</a>  
+          <a id="about" href="/About/">About
+            <div class="aboutdrop">
+              <ul style="list-style-type:none">
+                <li class="dropli">Company</li>
+                <li class="dropli" id="jobs">Jobs</li>
+                  <div class="jobsdrop">
+                    <ul style="list-style-type:none">
+                      <li class="dropli">Full-time</li>
+                      <li class="dropli">Part-time</li>
+                    </ul>
+                  </div>
+                <li class="dropli">Meet the Team</li>
+              </ul>
+            </div>
+          </a>
+      <a href="/Contact/">Contact</a> 
+      <a href="/Locations/">Locations</a> 
+    </nav>
+
+  </body>
+</html>
