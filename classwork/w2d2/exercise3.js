@@ -123,3 +123,14 @@ function longestWord (string) {
 };
 
 longestWord(findLongWord);
+
+console.log('Problem 3.1')
+
+var yearstr = "1470"
+
+function addyear (string) {
+  var array = string.split("")
+  for (i = 0; i < array.length; i++) {
+    
+  }
+}
